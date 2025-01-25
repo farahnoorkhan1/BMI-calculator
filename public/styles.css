@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    text-align: center;
+    
+
+}
+
+button{
+    transform: scale(2);
+    margin: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(240, 128, 128);
+    color: white;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover{
+    background-color: rgb(240, 128, 128);
+    transform: scale(1.5);
+}
+button:active {
+    transform: scale(1.4); 
+}
